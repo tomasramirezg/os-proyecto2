@@ -18,15 +18,15 @@ main(int argc, char *argv[])
 
   // Print system information in a formatted way
   printf("=== System Information ===\n");
-  
+
   // Convert bytes to MB for easier reading
   uint64 free_mb = info.freemem / (1024 * 1024);
-  printf("Free Memory: %d MB (%d bytes)\n", free_mb, info.freemem);
-  
-  printf("Used Pages: %d\n", info.used_pages);
-  printf("Available Pages: %d\n", info.avail_pages);
-  printf("Runnable Processes: %d\n", info.nproc);
-  
+  printf("Free Memory: %ld MB (%ld bytes)\n", free_mb, info.freemem);
+
+  printf("Used Pages: %ld\n", info.used_pages);
+  printf("Available Pages: %ld\n", info.avail_pages);
+  printf("Runnable Processes: %ld\n", info.nproc);
+
   printf("==========================\n");
 
   exit(0);
