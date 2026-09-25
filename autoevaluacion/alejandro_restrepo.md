@@ -12,7 +12,7 @@ A lo largo de estas dos semanas, logré afianzar los conceptos teóricos vistos 
 *   El cálculo y gestión de la memoria física mediante la inspección de la lista de páginas libres (`freelist`) y su conversión a Megabytes.
 
 ## 3. Declaración de Uso de IA Generativa
-Dando cumplimiento a la política del curso, declaro explícitamente el uso de la herramienta de IA generativa **Claude** (y asistencia adicional de IA) durante el desarrollo de este proyecto[cite: 27]. 
+Dando cumplimiento a la política del curso, declaro explícitamente el uso de la herramienta de IA generativa **Claude** (y asistencia adicional de IA) durante el desarrollo de este proyecto. 
 
 **Uso específico:**
 La herramienta no fue utilizada para generar el código final a ciegas, sino como un tutor interactivo para:
